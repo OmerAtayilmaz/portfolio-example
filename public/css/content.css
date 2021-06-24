@@ -128,7 +128,6 @@
     background: var(--bg-darkblue);
     align-items: center;
     padding:1rem;
- 
     margin-top:2rem;
     border-radius: 0.4rem;
 }
@@ -162,4 +161,17 @@
     cursor:pointer;
     transition:0.5s;
     background: var(--bg-blue) !important;
+}
+/* Media Queries
+*/
+@media screen and (max-width:576px) {
+   .custom-text h1{
+       font-size:1rem;
+   }
+   .custom-text h4{
+       font-size:0.8rem;
+   }
+   .custom-text h2 {
+        font-size:1rem;
+   }
 }

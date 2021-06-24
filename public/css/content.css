@@ -1,0 +1,162 @@
+:root{
+    --bg-darkblue:#0A1931;
+    --bg-blue:#185ADB;
+    --text-color:#FCECDD;
+    --bg-linear:linear-gradient(to right,#0A1931,#040b16);
+}
+
+.custom-text{
+    box-shadow: 5px 5px 3px var(--bg-blue);
+    padding-left:30px;
+    padding-right:15px;
+    border-radius: 1rem;
+    background-color: var(--bg-darkblue);
+    color:var(--text-color);
+}
+/* Skills */
+.line{
+    height:0.4rem;
+    width:200px;
+    background: var(--bg-darkblue);
+    border-radius: 15px;;
+
+}
+.title-custom{
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+.line-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.skills{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+}
+
+.custom-card{
+    margin:5px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    width:200px;
+    height: 200px;
+    color:#fff;
+    border:none;
+    border-radius: 1rem;
+    box-shadow:5px 5px 3px var(--bg-blue);
+    background:var(--bg-linear);
+}
+.custom-card img {
+    width:80px;
+    
+}
+.custom-card span {
+    font-size:1.2rem;
+    font-style: bold !important;
+    font-weight: lighter !important;
+    letter-spacing: 0.1rem;
+}
+.custom-card:nth-child(4) img{
+    width:150px;
+}
+/* Education */
+.education{
+   box-shadow:5px 5px 3px var(--bg-blue);
+   margin:15px;
+   padding:1rem;
+   background: var(--bg-darkblue);
+   border-radius: 0.4rem;
+   color:#fff;
+}
+.education span{
+    font-weight: lighter;
+}
+.education h4{
+    letter-spacing: 0.2rem;
+}
+/* About */
+
+.about-img{
+    width:400px;
+    height:400px;
+    background:var(--bg-linear);
+    border-radius: 0 400px 0 0;
+}
+
+.about-text{
+    padding:15px 15px 15px 0;
+    text-align: center;
+ 
+}
+
+/* Projects */
+
+.card{
+    margin-top:1rem;
+    border:none !important;
+    background:var(--bg-linear);
+    font-weight: lighter;
+    box-shadow:5px 5px 3px var(--bg-blue);
+    border-radius: 1.5rem;
+}
+
+.card .card-header{
+    border-color: #fff;
+    font-size:1.2rem ;
+}
+.card .card-footer{
+    border-color: #fff;
+}
+.card a {
+    color:#fff;
+    border-color:#fff;
+}
+
+/* Footer */
+
+.footer-container{
+    background: var(--bg-darkblue);
+    align-items: center;
+
+    margin-top:2rem;
+    border-radius: 0.4rem;
+}
+.footer-container .list-group-item {
+    background: none !important;
+    padding:0.5rem;
+}
+.footer-container a {
+    color:var(--text-color) !important;
+}
+
+.footer-adress{
+    text-align: center;
+    font-weight: lighter;
+    font-size:0.8rem;
+}
+.footer-adress .title{
+    font-size:1rem;
+    font-weight: bolder;
+}
+
+.footer-container .custom-button{
+    background: var(--bg-darkblue) !important;
+    color:var(--text-color);
+    text-decoration: none;
+    margin:0 0 0 5px;
+    transition:0.5s;
+    
+}
+.footer-container .custom-button:hover{
+    cursor:pointer;
+    transition:0.5s;
+    background: var(--bg-blue) !important;
+}

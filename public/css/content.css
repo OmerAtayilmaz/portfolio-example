@@ -70,11 +70,12 @@
 /* Education */
 .education{
    box-shadow:5px 5px 3px var(--bg-blue);
-   margin:15px;
+   margin:18px;
    padding:1rem;
    background: var(--bg-darkblue);
    border-radius: 0.4rem;
    color:#fff;
+
 }
 .education span{
     font-weight: lighter;

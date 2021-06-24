@@ -36,56 +36,40 @@
   
     <p class="text-gray font-weight-bold text-uppercase px-3 small pb-4 mb-0">Main</p>
   
-    <ul class="nav flex-column bg-white mb-0">
+    <ul class="nav navigation-nav flex-column bg-white mb-0">
       <li class="nav-item">
-        <a href="#" class="nav-link text-dark font-italic bg-light">
+        <a href="#home" class="nav-link text-dark font-italic bg-light">
                   <i class="fa fa-th-large mr-3  fa-fw"></i>
                   Home
               </a>
       </li>
      
       <li class="nav-item">
-        <a href="#" class="nav-link text-dark font-italic">
+        <a href="#skills" class="nav-link text-dark font-italic">
                   <i class="fa fa-cubes mr-3  fa-fw"></i>
                   Skills
               </a>
       </li>
       <li class="nav-item text-dark">
-        <a href="#" class="nav-link text-dark font-italic">
+        <a href="#education" class="nav-link text-dark font-italic">
                   <i class="fas fa-university  mr-3  fa-fw"></i>
                   Education
               </a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link text-dark font-italic">
+        <a href="#about" class="nav-link text-dark font-italic">
                   <i class="fa fa-address-card mr-3  fa-fw"></i>
                   About Me
               </a>
       </li>
-    </ul>
-  
-    <p class="text-gray font-weight-bold text-uppercase px-3 small py-4 mb-0">My Projects</p>
-  
-    <ul class="nav flex-column bg-white mb-0">
       <li class="nav-item">
-        <a href="#" class="nav-link text-dark font-italic">
-                  <i class="fab fa-safari mr-3 fa-fw"></i>
-                  Web Projects
+        <a href="#project" class="nav-link text-dark font-italic">
+                <i class="fas fa-project-diagram mr-3"></i>
+                  Projects
               </a>
       </li>
-      <li class="nav-item">
-        <a href="#" class="nav-link text-dark font-italic">
-                  <i class="fab fa-android mr-3 fa-fw"></i>
-                  Android App Projects
-              </a>
-      </li>
-      <li class="nav-item">
-        <a href="#" class="nav-link text-dark font-italic">
-            <i class="fas fa-desktop mr-3 fa-fw"></i>
-                  Desktop App Projects
-              </a>
-      </li>
-     
+      
+
     </ul>
   </div>
   <!-- End vertical navbar -->
@@ -94,6 +78,7 @@
     <!-- Toggle button -->
     <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold">Toggle</small></button> 
   <!--Main-->
+  <section id="home">
   <div class="container">
       <div class="row">
         
@@ -109,7 +94,9 @@
           </div>
       </div>
   </div>
+</section>
   <!--Skills-->
+<section id="skills">
 <div class="container-fluid">
   <div class="line-container">
     <h2 class="text-center  text-muted title-custom">Skills</h2>
@@ -134,7 +121,11 @@
     </div>
   </div>
 </div>
+</section>
+
+
 <!--Education-->
+<section id="education">
 <div class="container-fluid">
   <div class="line-container">
     <h2 class="text-center  text-muted  title-custom">Education</h2>
@@ -153,7 +144,9 @@
     </div>
   </div>
 </div>
+</section>
 <!--About Me-->
+<section id="about">
 <div class="container-fluid">
   <div class="line-container">
     <h2 class="text-center  text-muted  title-custom">About me</h2>
@@ -163,7 +156,7 @@
     <div class="col-lg-6">
       <div class="about-img">
       <img src="./img/person.png" class="img-fluid">
-    </div>
+      </div>
   </div>
     <div class="col-lg-6">
         <div class="about-text text-muted ">
@@ -174,8 +167,9 @@
    
   </div>
 </div>
+</section>
 <!--Projects-->
-<div class="container">
+<section id="project"><div class="container">
   <div class="line-container">
     <h2 class="text-center  text-muted  title-custom">Projects</h2>
     <div class="text-center line"></div>
@@ -235,6 +229,7 @@
         </div>
   </div>
 </div>
+</section>
 
 <!--Footer-->
 <div class="container-fluid">

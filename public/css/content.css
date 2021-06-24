@@ -127,7 +127,8 @@
 .footer-container{
     background: var(--bg-darkblue);
     align-items: center;
-
+    padding:1rem;
+ 
     margin-top:2rem;
     border-radius: 0.4rem;
 }
